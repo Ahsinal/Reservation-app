@@ -6,6 +6,7 @@ import { Featured } from '../../compo/featured/Featured'
 import PropertyList from '../../compo/propertyList/PropertyList'
 import FeaturedProperties from '../../compo/featuredProperties/FeaturedProperties'
 import MailList from '../../compo/mailList/MailList'
+import Footer from '../../compo/footer/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <h1 className="homeTitle">Places guests love</h1>
       <FeaturedProperties/>
       <MailList/>
+      <Footer/>
     </div>
     </>
   )
