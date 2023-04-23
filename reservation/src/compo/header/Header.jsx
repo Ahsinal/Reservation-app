@@ -27,7 +27,7 @@ const Header = ({ type }) => {
     setOptions((prev) => {
       return {
         ...prev,
-        [name]: operation == "i" ? options[name] + 1 : options[name] - 1
+        [name]: operation === "i" ? options[name] + 1 : options[name] - 1
       }
     })
   }
@@ -62,7 +62,7 @@ const Header = ({ type }) => {
 
           {type !=="list" &&
             <>
-            <h1 className="headerTitle">A Lifetime of Discount?Its genius.</h1>
+            <h1 className="headerTitle">A Lifetime of Discount? Its genius.</h1>
             <p className="headerDesc">Lorem ipsum dolor sit amet consectetur ad</p>
             <button className="headerBtn">SignIn/Register</button>
             {/*************SEARCH BOX**************************************************************/}
